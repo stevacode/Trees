@@ -113,5 +113,11 @@ int main() {
 	cout << "Level Order: ";
 	tree.levelOrder(tree.root);
 	cout << endl;
+
+	cout << "Height of the tree: " << tree.height(tree.root) << endl;
+	cout << "Height of the tree (using level order): " << tree.height(tree.root) << endl;
+	cout << "Height of the tree (using recursion): " << tree.height(tree.root) << endl;
+
+	
 	return 0;
 }
