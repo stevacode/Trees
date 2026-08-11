@@ -12,7 +12,8 @@ endif()
 project ("Trees")
 
 # Add source to this project's executable.
-add_executable (Trees "Trees.cpp" "Trees.h")
+#add_executable (Trees "Trees.cpp" "Trees.h" "TreesClass.cpp")
+add_executable (Trees "QueueCpp.h" "TreesClass.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Trees PROPERTY CXX_STANDARD 20)
